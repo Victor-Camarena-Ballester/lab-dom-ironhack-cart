@@ -1,5 +1,28 @@
+body {
+  width: 800px;
+}
+
+.productwrapper,
+.newproductwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.productwrapper div,
+.newproductwrapper div {
+  width: 20%;
+  padding-right: 10px;
+}
 input {
   border: solid 1px black;
+  width: 40px;
+  margin-left: 10px;
+}
+.addinput {
+  width: 100%;
+  margin-left: 0px;
 }
 
 .btn {
@@ -25,17 +48,28 @@ input {
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #cf000f;
+  border-color: #cf000f;
 }
 
 .quantity {
   margin: 0 5px;
+}
+.button-container {
+  text-align: center;
+  margin-top: 30px;
+}
+.total {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.error {
+  color: red;
 }
